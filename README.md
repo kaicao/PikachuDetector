@@ -189,6 +189,7 @@ E.g. `/Users/kai/Documents/Projects/MachineLearning/PikachuDetector/flink-proces
 
 The example video of `pokemon_detective_pikachu.mp4` has:
 - time length: 79s
+- Frame rate: 24 fps
 - width: 640
 - height: 360
 - pixel format: PIX_FMT_YUV420P
@@ -222,8 +223,13 @@ docker run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter  # Start Jupyte
 ```
 
 [2] [Pikachu datasets](https://github.com/diewland/pika-dataset-v3)
+
 [3] [RectLabel](https://rectlabel.com/)
+
 [4] [xml_to_csv.py](https://gist.github.com/wbrickner/efedf8ab0ce1705de1372c1e2f49dd98)
+
 [5] [generate_tfrecord.py](https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py)
+
 [6] [Train a Hand Detector using Tensorflow 2 Object Detection API in 2021](https://towardsdatascience.com/train-an-object-detector-using-tensorflow-2-object-detection-api-in-2021-a4fed450d1b9)
+
 [7] [LabelImg](https://github.com/tzutalin/labelImg)
