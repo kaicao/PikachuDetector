@@ -23,6 +23,11 @@
             <artifactId>flink-streaming-java_2.12</artifactId>
             <version>${flink.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-runtime-web_2.12</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
 
 
         <dependency>
@@ -35,7 +40,12 @@
             <artifactId>tensorflow-core-api</artifactId>
             <version>${tensorflow.java.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.tensorflow</groupId>
+            <artifactId>tensorflow-core-api</artifactId>
+            <version>${tensorflow.java.version}</version>
+            <classifier>macosx-x86_64</classifier>
+        </dependency>
 
         <dependency>
             <groupId>ai.djl.tensorflow</groupId>
@@ -43,14 +53,33 @@
             <version>${ai.djl.version}</version>
         </dependency>
         <dependency>
+            <groupId>ai.djl</groupId>
+            <artifactId>model-zoo</artifactId>
+            <version>${ai.djl.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>ai.djl.tensorflow</groupId>
             <artifactId>tensorflow-native-auto</artifactId>
             <version>${ai.djl.tensorflow.native.version}</version>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>${protobuf.version}</version>
+        </dependency>
+        -->
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>${commons.collection.version}</version>
         </dependency>
     </dependencies>
 
