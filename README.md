@@ -206,13 +206,16 @@ Execute `PikachuDetectJobExecutor` main with parameter like
 ```
 
 ### Note
-In case you wanna use Anaconda, currently tensorflow-io is not in its repo, 
+In case you wanna use Anaconda, at the time when tried by author (12.2021), tensorflow-io is not in its repo, 
 thus end up with error when use TensorFlow from there.
 To deactivate conda environment when open new terminal use:
 ```
 deactivate
 conda config --set auto_activate_base false
 ```    
+
+The movie `pokemon_detective_pikachu.mp4` mentioned in the document is not uploaded in the repo.
+It's the preview video of Detective Pikachu.
 
 ### Reference
 [1] Install tensorflow locally, follow https://www.tensorflow.org/install/.
